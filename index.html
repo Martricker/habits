@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/icon.svg">
+    <link rel="stylesheet" href="./style.css">
+    <title>Habits</title>
+</head>
+    <body>        
+        <header>
+            <img src="./assets/logo.svg" alt="Logotipo da aplicação Habits">
+            <button>
+                <img src="./assets/plus.svg" alt="Ícone adicionar">
+                    <div>
+                    Register my day
+                    </div>
+            </button>
+        </header>
+        <form id="form-habits">
+            <div class="content">
+                <div class="habits">
+                    <div class="habit" data-name="run">🏃🏼‍♂️</div>
+                    <div class="habit" data-name="gym">🏋🏼‍♂️</div>
+                    <div class="habit" data-name="water">💧</div>
+                    <div class="habit" data-name="diet">🍇</div>
+                    <div class="habit" data-name="reading">📖</div>
+                    <div class="habit" data-name="sleep">💤</div>
+                </div>
+                <div class="texts">
+                    <div class="text">Run</div>
+                    <div class="text">Gym</div>
+                    <div class="text">Drink Water</div>
+                    <div class="text">Diet</div>
+                    <div class="text">Reading</div>
+                    <div class="text">Sleep</div>                    
+                </div>
+            </div>                
+            <div class="days"></div>
+        </form>
+        <script src="./library.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
